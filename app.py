@@ -5,7 +5,7 @@ import pandas as pd
 app = Flask(__name__)
 
 # Cargar el modelo entrenado
-model = joblib.load('model/salary_model.pkl')
+model = joblib.load('model/salary_model.joblib')
 
 @app.route('/')
 def home():

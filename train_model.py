@@ -64,6 +64,6 @@ print(f"Resultados de Evaluación:")
 print(f"MAE (Mean Absolute Error): {mae:.2f}")
 print(f"R2 Score: {r2:.4f}")
 
-# 8. Guardar el modelo en la carpeta 'model/' 
-joblib.dump(model_pipeline, 'model/salary_model.pkl')
-print("Modelo guardado exitosamente en model/salary_model.pkl")
+#8. Guardar el modelo en formato .joblib
+joblib.dump(model_pipeline, 'model/salary_model.joblib')
+print("Modelo guardado exitosamente en model/salary_model.joblib")
