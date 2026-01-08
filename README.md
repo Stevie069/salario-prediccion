@@ -27,7 +27,6 @@ Aquí se muestra la aplicación en funcionamiento con una predicción realizada:
   
 ![Ejecución de la App](screenshots/prediction_result.png)
 
-*(Nota: Asegúrate de que tu imagen se llame 'prediction_result.png' y esté dentro de la carpeta 'screenshots', o actualiza el nombre en la línea de arriba)*
 
 ## 🚀 Instalación y Ejecución
 
@@ -37,3 +36,4 @@ Sigue estos pasos para correr el proyecto en tu máquina local:
    ```bash
    git clone [https://github.com/Stevie069/salario-predicci-n.git](https://github.com/Stevie069/salario-predicci-n.git)
    cd salario-predicci-n
+
